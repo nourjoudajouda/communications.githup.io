@@ -1,0 +1,2051 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>المواصلات</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+
+  <body>
+    <!-- Start Preloader HTML -->
+    <div id="preloader">
+      <div class="loading-container">
+        <img src="./images/logo.png" alt="Logo" />
+      </div>
+    </div>
+    <!-- End Preloader HTML -->
+
+    <!-- Start Topbar Alert -->
+    <div
+      id="alert"
+      class="topbar alert d-none d-md-flex justify-content-center align-items-center alert-dismissible show m-0 text-center border-0 rounded-0"
+      role="alert">
+      <div class="container position-relative">
+        <img src="./images/topbar.png" alt loading="lazy" />
+        خصومات تصل إلى <span>10%</span> عرحلات مميزة
+        <button
+          type="button"
+          id="closeAlert"
+          class="btn-close"
+          data-bs-dismiss="alert"
+          aria-label="Close">
+          <img src="images/Frame.png">
+        </button>
+      </div>
+    </div>
+    <!-- End Topbar Alert -->
+
+    <!--Start Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg">
+      <div class="container h-100">
+        <div
+          class="navbar-container d-flex justify-content-between align-items-center">
+          <a id="navbar-brand" class="navbar-brand" href="#">
+            <img src="./images/logo.png" alt="Logo" loading="lazy" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-top flex-column flex-lg-row justify-content-between align-items-center"
+            id="offcanvasNavbar">
+            <button
+              class="btn-close d-lg-none ms-auto me-3"
+              type="button"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+            <ul class="navbar-nav mb-3 mb-lg-0 mx-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/mn-nhn.html">من نحن</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/alshrwt-walahkam.html">الشروط
+                  والاحكام</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contact-us.html">تواصل
+                  معنا</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/privacy-policy.html">سياسة
+                  الخصوصية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">قيمنا</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#bookingInquiryModal">استعلام حجز</a>
+              </li>
+            </ul>
+            <div class="header-icons">
+              <a
+                href="https://wa.me/+966920029449"
+                target="_blank"
+                title="واتساب">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="#" class="mx-3" title="تسجيل الدخول">
+                <i class="fa-regular fa-user"></i>
+              </a>
+              <a href="#"><i class="far fa-heart" title="المفضلة"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Home Section -->
+    <section class="home-section" id="target-element">
+      <div
+        class="container position-relative h-100 wow animate__animated animate__fadeInUp">
+        <div class="home-text">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <img src="images/1 2.png" class="ramadan-header" alt="img"/>
+              <h2 class="text-white fw-bold mt-5">هذا النص هو مثال لنص يمكن أن يستبدل
+                في نفس المساحة</h2>
+              <h6 class="text-white fw-bold my-3">هذا النص هو مثال لنص يمكن أن
+                يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                العربى</h6>
+              <div class="text-end">
+                <img src="./images/1.png" alt="image" />
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <img src="./images/Group 48096122.png" width="100%" height="100%"
+                alt="location" />
+            </div>
+          </div>
+        </div>
+
+        <div class="search-widget shadow-lg rounded-3 mt-5">
+          <!-- Outer Nav Tabs -->
+          <div class="widget-menu">
+            <ul class="nav nav-tabs" id="outerTab" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="outer-flights-tab"
+                  data-bs-toggle="tab"
+                  href="#outer-flights"
+                  role="tab"
+                  aria-controls="outer-flights"
+                  aria-selected="true">مواصلات
+                </a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="search-container">
+            <div class="tab-content row" id="outerTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="outer-flights"
+                role="tabpanel"
+                aria-labelledby="outer-flights-tab">
+                <!-- Inner Nav Tabs -->
+                <div class="nav nav-tabs pb-2" id="innerTab" role="tablist">
+                  <div role="presentation">
+                    <div
+                      class="form-check active"
+                      data-bs-toggle="tab"
+                      data-bs-target="#oneWay"
+                      aria-selected="true"
+                      role="tab">
+                      <input
+                        id="oneWayLabel"
+                        type="radio"
+                        class="form-check-input me-2"
+                        name="flightsRadio"
+                        checked />
+                      <label for="oneWayLabel"
+                        class="widget-flight-hotelicon">ذهاب فقط</label>
+                    </div>
+                  </div>
+                  <div role="presentation">
+                    <div
+                      class="form-check"
+                      data-bs-toggle="tab"
+                      data-bs-target="#roundTrip"
+                      aria-selected="false"
+                      role="tab"
+                      tabindex="-1">
+                      <input
+                        id="roundTripLabel"
+                        type="radio"
+                        class="form-check-input me-2"
+                        name="flightsRadio" />
+                      <label
+                        for="roundTripLabel"
+                        class="widget-flight-hotelicon">ذهاب وعودة</label>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="row align-items-md-end">
+                  <div class="col-md-10">
+                    <div class="tab-content pt-3" id="innerTabContent">
+                      <div
+                        class="tab-pane fade show active"
+                        id="oneWay"
+                        role="tabpanel"
+                        aria-labelledby="inner-oneWay-tab">
+                        <form class="row">
+                          <div
+                            class="col-md-3 mb-2 form-group position-relative">
+                            <label for="travelTo" class="form-label">الوجهة
+                              الحالية
+                            </label>
+                            <input
+                              type="text"
+                              id="travelTo"
+                              autocomplete="off"
+                              placeholder="الوجهة الحالية "
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div
+                            class="col-md-3 mb-2 form-group position-relative">
+                            <label for="travelTo" class="form-label">وجهة
+                              الوصول</label>
+                            <input
+                              type="text"
+                              id="travelTo"
+                              autocomplete="off"
+                              placeholder="وجهة الوصول"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelDate" class="form-label">تاريخ
+                              الذهاب</label>
+                            <input
+                              type="date"
+                              id="travelDate"
+                              data-date-format="yyyy-mm-dd"
+                              class="form-control" />
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelType" class="form-label">نوع
+                              السيارة</label>
+                            <select id="travelType" class="form-select">
+                              <option value="ECONOMY">اقتصادية</option>
+                              <option value="PREMIUM_ECONOMY">
+                                اقتصادية مميزه
+                              </option>
+                              <option value="BUSINESS">اعمال</option>
+                              <option value="FIRST">اولي</option>
+                            </select>
+                          </div>
+                          <div class="col-md-2">
+                            <label for="adults"
+                              class="form-label">عدد الأشخاص</label>
+                            <input
+                              type="number"
+                              id="adults"
+                              placeholder="1"
+                              class="form-control"
+                              min="0" />
+                          </div>
+
+                        </form>
+                      </div>
+                      <div class="tab-pane fade" id="roundTrip" role="tabpanel">
+                        <form class="row">
+                          <div
+                            class="col-md-3 mb-2 form-group position-relative">
+                            <label for="travelFrom"
+                              class="form-label">من</label>
+                            <input
+                              type="text"
+                              id="travelFrom"
+                              autocomplete="off"
+                              placeholder="المغادرة من"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div
+                            class="col-md-2 mb-2 form-group position-relative">
+                            <label for="travelTo" class="form-label">وجهة
+                              الوصول</label>
+                            <input
+                              type="text"
+                              id="travelTo"
+                              autocomplete="off"
+                              placeholder="وجهة الوصول"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelDate" class="form-label">تاريخ
+                              الذهاب</label>
+                            <input
+                              type="date"
+                              id="travelDate"
+                              data-date-format="yyyy-mm-dd"
+                              class="form-control" />
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelType" class="form-label">نوع
+                              الرحلة</label>
+                            <select id="travelType" class="form-select">
+                              <option value="ECONOMY">اقتصادية</option>
+                              <option value="PREMIUM_ECONOMY">
+                                اقتصادية مميزه
+                              </option>
+                              <option value="BUSINESS">اعمال</option>
+                              <option value="FIRST">اولي</option>
+                            </select>
+                          </div>
+                          <div class="col-md-1">
+                            <label for="adults"
+                              class="form-label">بالغين</label>
+                            <input
+                              type="number"
+                              id="adults"
+                              placeholder="1"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="children"
+                              class="form-label">الاطفال</label>
+                            <input
+                              type="number"
+                              id="children"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="infants"
+                              class="form-label">الرضع</label>
+                            <input
+                              type="number"
+                              id="infants"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                        </form>
+                      </div>
+                      <div class="tab-pane fade" id="multiCity" role="tabpanel">
+                        <form class="row mb-2">
+                          <div
+                            class="col-md-3 mb-2 form-group position-relative">
+                            <label for="travelFrom"
+                              class="form-label">من</label>
+                            <input
+                              type="text"
+                              id="travelFrom"
+                              autocomplete="off"
+                              placeholder="المغادرة من"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div
+                            class="col-md-2 mb-2 form-group position-relative">
+                            <label for="travelTo" class="form-label">وجهة
+                              الوصول</label>
+                            <input
+                              type="text"
+                              id="travelTo"
+                              autocomplete="off"
+                              placeholder="وجهة الوصول"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelDate" class="form-label">تاريخ
+                              الذهاب</label>
+                            <input
+                              type="date"
+                              id="travelDate"
+                              data-date-format="yyyy-mm-dd"
+                              class="form-control" />
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelType" class="form-label">نوع
+                              الرحلة</label>
+                            <select id="travelType" class="form-select">
+                              <option value="ECONOMY">اقتصادية</option>
+                              <option value="PREMIUM_ECONOMY">
+                                اقتصادية مميزه
+                              </option>
+                              <option value="BUSINESS">اعمال</option>
+                              <option value="FIRST">اولي</option>
+                            </select>
+                          </div>
+                          <div class="col-md-1">
+                            <label for="adults"
+                              class="form-label">بالغين</label>
+                            <input
+                              type="number"
+                              id="adults"
+                              placeholder="1"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="children"
+                              class="form-label">الاطفال</label>
+                            <input
+                              type="number"
+                              id="children"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="infants"
+                              class="form-label">الرضع</label>
+                            <input
+                              type="number"
+                              id="infants"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                        </form>
+                        <form class="row">
+                          <div
+                            class="col-md-3 mb-2 form-group position-relative">
+                            <label for="travelFrom"
+                              class="form-label">من</label>
+                            <input
+                              type="text"
+                              id="travelFrom"
+                              autocomplete="off"
+                              placeholder="المغادرة من"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div
+                            class="col-md-2 mb-2 form-group position-relative">
+                            <label for="travelTo" class="form-label">وجهة
+                              الوصول</label>
+                            <input
+                              type="text"
+                              id="travelTo"
+                              autocomplete="off"
+                              placeholder="وجهة الوصول"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelDate" class="form-label">تاريخ
+                              الذهاب</label>
+                            <input
+                              type="date"
+                              id="travelDate"
+                              data-date-format="yyyy-mm-dd"
+                              class="form-control" />
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelType" class="form-label">نوع
+                              الرحلة</label>
+                            <select id="travelType" class="form-select">
+                              <option value="ECONOMY">اقتصادية</option>
+                              <option value="PREMIUM_ECONOMY">
+                                اقتصادية مميزه
+                              </option>
+                              <option value="BUSINESS">اعمال</option>
+                              <option value="FIRST">اولي</option>
+                            </select>
+                          </div>
+                          <div class="col-md-1">
+                            <label for="adults"
+                              class="form-label">بالغين</label>
+                            <input
+                              type="number"
+                              id="adults"
+                              placeholder="1"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="children"
+                              class="form-label">الاطفال</label>
+                            <input
+                              type="number"
+                              id="children"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="infants"
+                              class="form-label">الرضع</label>
+                            <input
+                              type="number"
+                              id="infants"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                        </form>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="compareFlights"
+                        role="tabpanel">
+                        <form class="row mb-2">
+                          <div
+                            class="col-md-3 mb-2 form-group position-relative">
+                            <label for="travelFrom"
+                              class="form-label">من</label>
+                            <input
+                              type="text"
+                              id="travelFrom"
+                              autocomplete="off"
+                              placeholder="المغادرة من"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div
+                            class="col-md-2 mb-2 form-group position-relative">
+                            <label for="travelTo" class="form-label">وجهة
+                              الوصول</label>
+                            <input
+                              type="text"
+                              id="travelTo"
+                              autocomplete="off"
+                              placeholder="وجهة الوصول"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelDate" class="form-label">تاريخ
+                              الذهاب</label>
+                            <input
+                              type="date"
+                              id="travelDate"
+                              data-date-format="yyyy-mm-dd"
+                              class="form-control" />
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelType" class="form-label">نوع
+                              الرحلة</label>
+                            <select id="travelType" class="form-select">
+                              <option value="ECONOMY">اقتصادية</option>
+                              <option value="PREMIUM_ECONOMY">
+                                اقتصادية مميزه
+                              </option>
+                              <option value="BUSINESS">اعمال</option>
+                              <option value="FIRST">اولي</option>
+                            </select>
+                          </div>
+                          <div class="col-md-1">
+                            <label for="adults"
+                              class="form-label">بالغين</label>
+                            <input
+                              type="number"
+                              id="adults"
+                              placeholder="1"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="children"
+                              class="form-label">الاطفال</label>
+                            <input
+                              type="number"
+                              id="children"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="infants"
+                              class="form-label">الرضع</label>
+                            <input
+                              type="number"
+                              id="infants"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                        </form>
+                        <form class="row">
+                          <div
+                            class="col-md-3 mb-2 form-group position-relative">
+                            <label for="travelFrom"
+                              class="form-label">من</label>
+                            <input
+                              type="text"
+                              id="travelFrom"
+                              autocomplete="off"
+                              placeholder="المغادرة من"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div
+                            class="col-md-2 mb-2 form-group position-relative">
+                            <label for="travelTo" class="form-label">وجهة
+                              الوصول</label>
+                            <input
+                              type="text"
+                              id="travelTo"
+                              autocomplete="off"
+                              placeholder="وجهة الوصول"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelDate" class="form-label">تاريخ
+                              الذهاب</label>
+                            <input
+                              type="date"
+                              id="travelDate"
+                              data-date-format="yyyy-mm-dd"
+                              class="form-control" />
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelType" class="form-label">نوع
+                              الرحلة</label>
+                            <select id="travelType" class="form-select">
+                              <option value="ECONOMY">اقتصادية</option>
+                              <option value="PREMIUM_ECONOMY">
+                                اقتصادية مميزه
+                              </option>
+                              <option value="BUSINESS">اعمال</option>
+                              <option value="FIRST">اولي</option>
+                            </select>
+                          </div>
+                          <div class="col-md-1">
+                            <label for="adults"
+                              class="form-label">بالغين</label>
+                            <input
+                              type="number"
+                              id="adults"
+                              placeholder="1"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="children"
+                              class="form-label">الاطفال</label>
+                            <input
+                              type="number"
+                              id="children"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="infants"
+                              class="form-label">الرضع</label>
+                            <input
+                              type="number"
+                              id="infants"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="search-btn text-center text-md-end mt-3">
+                      <button
+                        type="button"
+                        id="search-btn"
+                        class="btn btn-main">
+                        بحث
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="outer-hotels"
+                role="tabpanel"
+                aria-labelledby="outer-hotels-tab">
+                <!-- Inner Nav Tabs -->
+                <div class="nav nav-tabs pb-2" id="innerTab" role="tablist">
+                  <div role="presentation">
+                    <div
+                      class="form-check active"
+                      data-bs-toggle="tab"
+                      data-bs-target="#oneWay"
+                      aria-selected="true"
+                      role="tab">
+                      <input
+                        id="oneWayLabel"
+                        type="radio"
+                        class="form-check-input me-2"
+                        name="flightsRadio"
+                        checked />
+                      <label for="oneWayLabel"
+                        class="widget-flight-hotelicon">ليلة واحدة</label>
+                    </div>
+                  </div>
+                  <div role="presentation">
+                    <div
+                      class="form-check"
+                      data-bs-toggle="tab"
+                      data-bs-target="#roundTrip"
+                      aria-selected="false"
+                      role="tab"
+                      tabindex="-1">
+                      <input
+                        id="roundTripLabel"
+                        type="radio"
+                        class="form-check-input me-2"
+                        name="flightsRadio" />
+                      <label
+                        for="roundTripLabel"
+                        class="widget-flight-hotelicon">ليلتين</label>
+                    </div>
+                  </div>
+                  <div role="presentation">
+                    <div
+                      class="form-check"
+                      data-bs-toggle="tab"
+                      data-bs-target="#multiCity"
+                      aria-selected="false"
+                      role="tab"
+                      tabindex="-1">
+                      <input
+                        id="multiCityLabel"
+                        type="radio"
+                        class="form-check-input me-2"
+                        name="flightsRadio" />
+                      <label
+                        for="multiCityLabel"
+                        class="widget-flight-hotelicon">أكثر من ذلك</label>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="row align-items-md-end">
+                  <div class="col-md-10">
+                    <div class="tab-content pt-3" id="innerTabContent">
+                      <div
+                        class="tab-pane fade show active"
+                        id="oneWay"
+                        role="tabpanel"
+                        aria-labelledby="inner-oneWay-tab">
+                        <form class="row">
+                          <div
+                            class="col-md-3 mb-2 form-group position-relative">
+                            <label for="travelTo" class="form-label">وجهة
+                              الوصول</label>
+                            <input
+                              type="text"
+                              id="travelTo"
+                              autocomplete="off"
+                              placeholder="وجهة الوصول"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelDate" class="form-label">تاريخ
+                              الوصول</label>
+                            <input
+                              type="date"
+                              id="travelDate"
+                              data-date-format="yyyy-mm-dd"
+                              class="form-control" />
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelDate" class="form-label">تاريخ
+                              المغادرة</label>
+                            <input
+                              type="date"
+                              id="travelDate"
+                              data-date-format="yyyy-mm-dd"
+                              class="form-control" />
+                          </div>
+
+                          <div class="col-md-1">
+                            <label for="adults"
+                              class="form-label">بالغين</label>
+                            <input
+                              type="number"
+                              id="adults"
+                              placeholder="1"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="children"
+                              class="form-label">اطفال</label>
+                            <input
+                              type="number"
+                              id="children"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="infants"
+                              class="form-label"> الغرف</label>
+                            <input
+                              type="number"
+                              id="infants"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                        </form>
+                      </div>
+                      <div class="tab-pane fade" id="roundTrip" role="tabpanel">
+                        <form class="row">
+                          <div
+                            class="col-md-3 mb-2 form-group position-relative">
+                            <label for="travelFrom"
+                              class="form-label">من</label>
+                            <input
+                              type="text"
+                              id="travelFrom"
+                              autocomplete="off"
+                              placeholder="المغادرة من"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div
+                            class="col-md-2 mb-2 form-group position-relative">
+                            <label for="travelTo" class="form-label">وجهة
+                              الوصول</label>
+                            <input
+                              type="text"
+                              id="travelTo"
+                              autocomplete="off"
+                              placeholder="وجهة الوصول"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelDate" class="form-label">تاريخ
+                              الذهاب</label>
+                            <input
+                              type="date"
+                              id="travelDate"
+                              data-date-format="yyyy-mm-dd"
+                              class="form-control" />
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelType" class="form-label">نوع
+                              الرحلة</label>
+                            <select id="travelType" class="form-select">
+                              <option value="ECONOMY">اقتصادية</option>
+                              <option value="PREMIUM_ECONOMY">
+                                اقتصادية مميزه
+                              </option>
+                              <option value="BUSINESS">اعمال</option>
+                              <option value="FIRST">اولي</option>
+                            </select>
+                          </div>
+                          <div class="col-md-1">
+                            <label for="adults"
+                              class="form-label">بالغين</label>
+                            <input
+                              type="number"
+                              id="adults"
+                              placeholder="1"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="children"
+                              class="form-label">الاطفال</label>
+                            <input
+                              type="number"
+                              id="children"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="infants"
+                              class="form-label">الرضع</label>
+                            <input
+                              type="number"
+                              id="infants"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                        </form>
+                      </div>
+                      <div class="tab-pane fade" id="multiCity" role="tabpanel">
+                        <form class="row mb-2">
+                          <div
+                            class="col-md-3 mb-2 form-group position-relative">
+                            <label for="travelFrom"
+                              class="form-label">من</label>
+                            <input
+                              type="text"
+                              id="travelFrom"
+                              autocomplete="off"
+                              placeholder="المغادرة من"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div
+                            class="col-md-2 mb-2 form-group position-relative">
+                            <label for="travelTo" class="form-label">وجهة
+                              الوصول</label>
+                            <input
+                              type="text"
+                              id="travelTo"
+                              autocomplete="off"
+                              placeholder="وجهة الوصول"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelDate" class="form-label">تاريخ
+                              الذهاب</label>
+                            <input
+                              type="date"
+                              id="travelDate"
+                              data-date-format="yyyy-mm-dd"
+                              class="form-control" />
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelType" class="form-label">نوع
+                              الرحلة</label>
+                            <select id="travelType" class="form-select">
+                              <option value="ECONOMY">اقتصادية</option>
+                              <option value="PREMIUM_ECONOMY">
+                                اقتصادية مميزه
+                              </option>
+                              <option value="BUSINESS">اعمال</option>
+                              <option value="FIRST">اولي</option>
+                            </select>
+                          </div>
+                          <div class="col-md-1">
+                            <label for="adults"
+                              class="form-label">بالغين</label>
+                            <input
+                              type="number"
+                              id="adults"
+                              placeholder="1"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="children"
+                              class="form-label">الاطفال</label>
+                            <input
+                              type="number"
+                              id="children"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="infants"
+                              class="form-label">الرضع</label>
+                            <input
+                              type="number"
+                              id="infants"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                        </form>
+                        <form class="row">
+                          <div
+                            class="col-md-3 mb-2 form-group position-relative">
+                            <label for="travelFrom"
+                              class="form-label">من</label>
+                            <input
+                              type="text"
+                              id="travelFrom"
+                              autocomplete="off"
+                              placeholder="المغادرة من"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div
+                            class="col-md-2 mb-2 form-group position-relative">
+                            <label for="travelTo" class="form-label">وجهة
+                              الوصول</label>
+                            <input
+                              type="text"
+                              id="travelTo"
+                              autocomplete="off"
+                              placeholder="وجهة الوصول"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelDate" class="form-label">تاريخ
+                              الذهاب</label>
+                            <input
+                              type="date"
+                              id="travelDate"
+                              data-date-format="yyyy-mm-dd"
+                              class="form-control" />
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelType" class="form-label">نوع
+                              الرحلة</label>
+                            <select id="travelType" class="form-select">
+                              <option value="ECONOMY">اقتصادية</option>
+                              <option value="PREMIUM_ECONOMY">
+                                اقتصادية مميزه
+                              </option>
+                              <option value="BUSINESS">اعمال</option>
+                              <option value="FIRST">اولي</option>
+                            </select>
+                          </div>
+                          <div class="col-md-1">
+                            <label for="adults"
+                              class="form-label">بالغين</label>
+                            <input
+                              type="number"
+                              id="adults"
+                              placeholder="1"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="children"
+                              class="form-label">الاطفال</label>
+                            <input
+                              type="number"
+                              id="children"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="infants"
+                              class="form-label">الرضع</label>
+                            <input
+                              type="number"
+                              id="infants"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                        </form>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="compareFlights"
+                        role="tabpanel">
+                        <form class="row mb-2">
+                          <div
+                            class="col-md-3 mb-2 form-group position-relative">
+                            <label for="travelFrom"
+                              class="form-label">من</label>
+                            <input
+                              type="text"
+                              id="travelFrom"
+                              autocomplete="off"
+                              placeholder="المغادرة من"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div
+                            class="col-md-2 mb-2 form-group position-relative">
+                            <label for="travelTo" class="form-label">وجهة
+                              الوصول</label>
+                            <input
+                              type="text"
+                              id="travelTo"
+                              autocomplete="off"
+                              placeholder="وجهة الوصول"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelDate" class="form-label">تاريخ
+                              الذهاب</label>
+                            <input
+                              type="date"
+                              id="travelDate"
+                              data-date-format="yyyy-mm-dd"
+                              class="form-control" />
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelType" class="form-label">نوع
+                              الرحلة</label>
+                            <select id="travelType" class="form-select">
+                              <option value="ECONOMY">اقتصادية</option>
+                              <option value="PREMIUM_ECONOMY">
+                                اقتصادية مميزه
+                              </option>
+                              <option value="BUSINESS">اعمال</option>
+                              <option value="FIRST">اولي</option>
+                            </select>
+                          </div>
+                          <div class="col-md-1">
+                            <label for="adults"
+                              class="form-label">بالغين</label>
+                            <input
+                              type="number"
+                              id="adults"
+                              placeholder="1"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="children"
+                              class="form-label">الاطفال</label>
+                            <input
+                              type="number"
+                              id="children"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="infants"
+                              class="form-label">الرضع</label>
+                            <input
+                              type="number"
+                              id="infants"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                        </form>
+                        <form class="row">
+                          <div
+                            class="col-md-3 mb-2 form-group position-relative">
+                            <label for="travelFrom"
+                              class="form-label">من</label>
+                            <input
+                              type="text"
+                              id="travelFrom"
+                              autocomplete="off"
+                              placeholder="المغادرة من"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div
+                            class="col-md-2 mb-2 form-group position-relative">
+                            <label for="travelTo" class="form-label">وجهة
+                              الوصول</label>
+                            <input
+                              type="text"
+                              id="travelTo"
+                              autocomplete="off"
+                              placeholder="وجهة الوصول"
+                              class="form-control destinations-input" />
+                            <ul class="selector-box list-unstyled"></ul>
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelDate" class="form-label">تاريخ
+                              الذهاب</label>
+                            <input
+                              type="date"
+                              id="travelDate"
+                              data-date-format="yyyy-mm-dd"
+                              class="form-control" />
+                          </div>
+                          <div class="col-md-2 mb-2">
+                            <label for="travelType" class="form-label">نوع
+                              الرحلة</label>
+                            <select id="travelType" class="form-select">
+                              <option value="ECONOMY">اقتصادية</option>
+                              <option value="PREMIUM_ECONOMY">
+                                اقتصادية مميزه
+                              </option>
+                              <option value="BUSINESS">اعمال</option>
+                              <option value="FIRST">اولي</option>
+                            </select>
+                          </div>
+                          <div class="col-md-1">
+                            <label for="adults"
+                              class="form-label">بالغين</label>
+                            <input
+                              type="number"
+                              id="adults"
+                              placeholder="1"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="children"
+                              class="form-label">الاطفال</label>
+                            <input
+                              type="number"
+                              id="children"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                          <div class="col-md-1">
+                            <label for="infants"
+                              class="form-label">الرضع</label>
+                            <input
+                              type="number"
+                              id="infants"
+                              placeholder="0"
+                              class="form-control"
+                              min="0" />
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="search-btn text-center text-md-end mt-3">
+                      <button
+                        type="button"
+                        id="search-btn"
+                        class="btn btn-main">
+                        بحث
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="outer-booking"
+                role="tabpanel"
+                aria-labelledby="outer-booking-tab">
+                <form class="row d-flex align-items-center">
+                  <div class="col-md-5">
+                    <label for="pnr" class="form-label">رقم الحجز</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="pnr"
+                      name="pnr"
+                      required />
+                  </div>
+                  <div class="col-md-5">
+                    <label for="lastName" class="form-label">الاسم
+                      الاخير</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="lastName"
+                      name="lastName"
+                      required />
+                  </div>
+                  <div class="col-md-2">
+                    <button class="btn btn-main mt-4">استعلام</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Home Section -->
+
+    <!-- Start Features Section -->
+    <section class="features-section">
+      <div class="container wow animate__animated animate__fadeInUp">
+        <div class="swiper swiper-features">
+          <div class="slider-heading mb-5 pt-4">
+            <h2 class="section-title mb-0">عروض رهيبة ومميزات كثيرة</h2>
+            <div class="swiper-buttons position-relative d-none d-md-block">
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+          <div class="swiper-wrapper h-100">
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/features/feature-02.jpeg (1).png"
+                  loading="lazy" />
+                <h6>خصم 30% على الحافلات في رمضان</h6>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="images/features/feature-02.jpeg.png"
+                  loading="lazy" /></a>
+              <h6>خصم 30% على الحافلات في رمضان</h6>
+
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="images/features/feature-02.jpeg (2).png"
+                  loading="lazy" /></a>
+              <h6>خصم 30% على الحافلات في رمضان</h6>
+
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="images/features/feature-02.jpeg (1).png"
+                  loading="lazy" /></a>
+              <h6>خصم 30% على الحافلات في رمضان</h6>
+
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Features Section -->
+
+    <!-- Start Popular Hotels -->
+    <section class="specail-communications">
+      <div class="container wow animate__animated animate__fadeInUp">
+        <h2 class="section-title">
+          حافلات مميزة
+        </h2>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 mb-4">
+            <div class="card border-0 rounded-4">
+              <div class="col-12">
+                <img
+                  src="images/offers/t_2.png"
+                  loading="lazy" width="100%" />
+              </div>
+              <div class="p-3">
+                <div class="row my-2">
+                  <div class="col-lg-6 col-6">
+                    <h6 class="card-title">
+                      <span class="me-2 fw-bold">نوع الحافلة </span>
+                    </h6>
+                  </div>
+                  <div class="col-6 text-end" style="display: ruby;">
+                    <img src="images/offers/Group.png"
+                      loading="location">
+                    <h6 class="text-black">10 مقاعد </h6>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <h6 class="text-secondary">هذا النص هو مثال لنص يمكن أن يستبدل
+                    في نفس المساحة، لقد تم
+                    توليد هذا النص من مولد النص العربى.. <a href="#"
+                      class="text-accent">عرض
+                      التفاصيل</a> </h6>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12 col-12">
+                    <p class="card-button mt-2">
+                      <a
+                        class="btn btn-main btn-sm xy-popularsearch"
+                        href="https://booking.flynas.com/#/booking/search-redirect?origin=RUH&amp;destination=BAH&amp;origin1=undefined&amp;destination1=0&amp;currency=SAR&amp;departureDate=2024-10-04&amp;returnDate=null&amp;flightMode=oneway&amp;adultCount=1&amp;childCount=0&amp;infantCount=0&amp;culture=en-GB&amp;utm_source=&amp;tagtag_uid="
+                        tabindex="-1">احجز الان</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mb-4">
+            <div class="card border-0 rounded-4">
+              <div class="col-12">
+                <img
+                  src="images/offers/t_1.png"
+                  loading="lazy" width="100%" />
+              </div>
+              <div class="p-3">
+                <div class="row my-2">
+                  <div class="col-lg-6 col-6">
+                    <h6 class="card-title">
+                      <span class="me-2 fw-bold">نوع الحافلة </span>
+                    </h6>
+                  </div>
+                  <div class="col-6 text-end" style="display: ruby;">
+                    <img src="images/offers/Group.png"
+                      loading="location">
+                    <h6 class="text-black">10 مقاعد </h6>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <h6 class="text-secondary">هذا النص هو مثال لنص يمكن أن يستبدل
+                    في نفس المساحة، لقد تم
+                    توليد هذا النص من مولد النص العربى.. <a href="#"
+                      class="text-accent">عرض
+                      التفاصيل</a> </h6>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12 col-12">
+                    <p class="card-button mt-2">
+                      <a
+                        class="btn btn-main btn-sm xy-popularsearch"
+                        href="https://booking.flynas.com/#/booking/search-redirect?origin=RUH&amp;destination=BAH&amp;origin1=undefined&amp;destination1=0&amp;currency=SAR&amp;departureDate=2024-10-04&amp;returnDate=null&amp;flightMode=oneway&amp;adultCount=1&amp;childCount=0&amp;infantCount=0&amp;culture=en-GB&amp;utm_source=&amp;tagtag_uid="
+                        tabindex="-1">احجز الان</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mb-4">
+            <div class="card border-0 rounded-4">
+              <div class="col-12">
+                <img
+                  src="images/offers/t_3.png"
+                  loading="lazy" width="100%" />
+              </div>
+              <div class="p-3">
+                <div class="row my-2">
+                  <div class="col-lg-6 col-6">
+                    <h6 class="card-title">
+                      <span class="me-2 fw-bold">نوع الحافلة </span>
+                    </h6>
+                  </div>
+                  <div class="col-6 text-end" style="display: ruby;">
+                    <img src="images/offers/Group.png"
+                      loading="location">
+                    <h6 class="text-black">10 مقاعد </h6>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <h6 class="text-secondary">هذا النص هو مثال لنص يمكن أن يستبدل
+                    في نفس المساحة، لقد تم
+                    توليد هذا النص من مولد النص العربى.. <a href="#"
+                      class="text-accent">عرض
+                      التفاصيل</a> </h6>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12 col-12">
+                    <p class="card-button mt-2">
+                      <a
+                        class="btn btn-main btn-sm xy-popularsearch"
+                        href="https://booking.flynas.com/#/booking/search-redirect?origin=RUH&amp;destination=BAH&amp;origin1=undefined&amp;destination1=0&amp;currency=SAR&amp;departureDate=2024-10-04&amp;returnDate=null&amp;flightMode=oneway&amp;adultCount=1&amp;childCount=0&amp;infantCount=0&amp;culture=en-GB&amp;utm_source=&amp;tagtag_uid="
+                        tabindex="-1">احجز الان</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Popular Hotels -->
+    <section class="popular-hotels">
+      <div class="container wow animate__animated animate__fadeInUp">
+        <h2 class="section-title">
+          الفنادق القريبة من الحرم والاكثر طلباً
+        </h2>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 mb-4">
+            <div class="card border-0 rounded-4">
+              <div class="col-12">
+                <img
+                  src="images/popular-hotels/hotel.png"
+                  loading="lazy" width="100%" />
+              </div>
+              <div class="p-3">
+                <div class="row my-2">
+                  <div class="col-lg-6 col-6">
+                    <h6 class="card-title">
+                      <span class="me-2 fw-bold">اسم الفندق</span>
+                    </h6>
+                  </div>
+                  <div class="col-lg-6 col-6 text-end text-warning">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="col-12" style="display: ruby;">
+                  <img src="images/popular-hotels/location.png"
+                    loading="location">
+                  <h6 class="text-secondary">يوضع هنا عنوان الفندق</h6>
+                </div>
+                <div class="col-12">
+                  <h6 class="text-secondary">هذا النص هو مثال لنص يمكن أن يستبدل
+                    في نفس المساحة، لقد تم
+                    توليد هذا النص من مولد النص العربى.. <a href="#"
+                      class="text-accent">عرض
+                      التفاصيل</a> </h6>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 col-4">
+                    <img src="images/popular-hotels/mdi_car-brake-parking.png"
+                      loading="location">
+                    <span class="p-h-text-icons">كراج</span>
+                  </div>
+                  <div class="col-lg-2 col-4">
+                    <img
+                      src="images/popular-hotels/ic_outline-restaurant-menu.png"
+                      loading="location">
+                    <span class="p-h-text-icons">مطعم</span>
+                  </div>
+                  <div class="col-lg-2 col-4">
+                    <img src="images/popular-hotels/fa-solid_wifi.png"
+                      loading="location">
+                    <span class="p-h-text-icons">wifi</span>
+                  </div>
+                  <div class="col-lg-2 col-4">
+                    <img src="images/popular-hotels/bx_swim.png"
+                      loading="location">
+                    <span class="p-h-text-icons">بركة سباحة</span>
+                  </div>
+                  <div class="col-lg-2 col-4">
+                    <img src="images/popular-hotels/Group 2610443.png"
+                      loading="location">
+                    <span class="p-h-text-icons">مركز لياقة</span>
+                  </div>
+                  <div class="col-lg-2 col-4">
+                    <img src="images/popular-hotels/ic_outline-elevator.png"
+                      loading="location">
+                    <span class="p-h-text-icons">مصعد</span>
+                  </div>
+                </div>
+                <div class="row  btns-popular">
+                  <div class="col-lg-6 col-6">
+                    <p class="card-button mt-2">
+                      <a
+                        class="btn btn-main btn-sm xy-popularsearch"
+                        href="https://booking.flynas.com/#/booking/search-redirect?origin=RUH&amp;destination=BAH&amp;origin1=undefined&amp;destination1=0&amp;currency=SAR&amp;departureDate=2024-10-04&amp;returnDate=null&amp;flightMode=oneway&amp;adultCount=1&amp;childCount=0&amp;infantCount=0&amp;culture=en-GB&amp;utm_source=&amp;tagtag_uid="
+                        tabindex="-1">احجز معنا</a>
+                    </p>
+                  </div>
+                  <div class="col-lg-6 col-6">
+                    <p class="card-button mt-2">
+                      <a
+                        class="btn btn-secondary d-flex justify-content-center align-items-center gap-2"
+                        href="hotels.html"
+                        tabindex="-1">قراءة المزيد</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mb-4">
+            <div class="card border-0 rounded-4">
+              <div class="col-12">
+                <img
+                  src="images/popular-hotels/hotel.png"
+                  loading="lazy" width="100%" />
+              </div>
+              <div class="p-3">
+                <div class="row my-2">
+                  <div class="col-lg-6 col-6">
+                    <h6 class="card-title">
+                      <span class="me-2 fw-bold">اسم الفندق</span>
+                    </h6>
+                  </div>
+                  <div class="col-lg-6 col-6 text-end text-warning">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="col-12" style="display: ruby;">
+                  <img src="images/popular-hotels/location.png"
+                    loading="location">
+                  <h6 class="text-secondary">يوضع هنا عنوان الفندق</h6>
+                </div>
+                <div class="col-12">
+                  <h6 class="text-secondary">هذا النص هو مثال لنص يمكن أن يستبدل
+                    في نفس المساحة، لقد تم
+                    توليد هذا النص من مولد النص العربى.. <a href="#"
+                      class="text-accent">عرض
+                      التفاصيل</a> </h6>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 col-4">
+                    <img src="images/popular-hotels/mdi_car-brake-parking.png"
+                      loading="location">
+                    <span class="p-h-text-icons">كراج</span>
+                  </div>
+                  <div class="col-lg-2 col-4">
+                    <img
+                      src="images/popular-hotels/ic_outline-restaurant-menu.png"
+                      loading="location">
+                    <span class="p-h-text-icons">مطعم</span>
+                  </div>
+                  <div class="col-lg-2 col-4">
+                    <img src="images/popular-hotels/fa-solid_wifi.png"
+                      loading="location">
+                    <span class="p-h-text-icons">wifi</span>
+                  </div>
+                  <div class="col-lg-2 col-4">
+                    <img src="images/popular-hotels/bx_swim.png"
+                      loading="location">
+                    <span class="p-h-text-icons">بركة سباحة</span>
+                  </div>
+                  <div class="col-lg-2 col-4">
+                    <img src="images/popular-hotels/Group 2610443.png"
+                      loading="location">
+                    <span class="p-h-text-icons">مركز لياقة</span>
+                  </div>
+                  <div class="col-lg-2 col-4">
+                    <img src="images/popular-hotels/ic_outline-elevator.png"
+                      loading="location">
+                    <span class="p-h-text-icons">مصعد</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 col-6">
+                    <p class="card-button mt-2">
+                      <a
+                        class="btn btn-main btn-sm xy-popularsearch"
+                        href="https://booking.flynas.com/#/booking/search-redirect?origin=RUH&amp;destination=BAH&amp;origin1=undefined&amp;destination1=0&amp;currency=SAR&amp;departureDate=2024-10-04&amp;returnDate=null&amp;flightMode=oneway&amp;adultCount=1&amp;childCount=0&amp;infantCount=0&amp;culture=en-GB&amp;utm_source=&amp;tagtag_uid="
+                        tabindex="-1">احجز معنا</a>
+                    </p>
+                  </div>
+                  <div class="col-lg-6 col-6">
+                    <p class="card-button mt-2">
+                      <a
+                        class="btn btn-secondary d-flex justify-content-center align-items-center gap-2"
+                        href="#"
+                        tabindex="-1">قراءة المزيد</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mb-4">
+            <div class="card border-0 rounded-4">
+              <div class="col-12">
+                <img
+                  src="images/popular-hotels/hotel.png"
+                  loading="lazy" width="100%" />
+              </div>
+              <div class="p-3">
+                <div class="row my-2">
+                  <div class="col-lg-6 col-6">
+                    <h6 class="card-title">
+                      <span class="me-2 fw-bold">اسم الفندق</span>
+                    </h6>
+                  </div>
+                  <div class="col-lg-6 col-6 text-end text-warning">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="col-12" style="display: ruby;">
+                  <img src="images/popular-hotels/location.png"
+                    loading="location">
+                  <h6 class="text-secondary">يوضع هنا عنوان الفندق</h6>
+                </div>
+                <div class="col-12">
+                  <h6 class="text-secondary">هذا النص هو مثال لنص يمكن أن يستبدل
+                    في نفس المساحة، لقد تم
+                    توليد هذا النص من مولد النص العربى.. <a href="#"
+                      class="text-accent">عرض
+                      التفاصيل</a> </h6>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 col-4">
+                    <img src="images/popular-hotels/mdi_car-brake-parking.png"
+                      loading="location">
+                    <span class="p-h-text-icons">كراج</span>
+                  </div>
+                  <div class="col-lg-2 col-4">
+                    <img
+                      src="images/popular-hotels/ic_outline-restaurant-menu.png"
+                      loading="location">
+                    <span class="p-h-text-icons">مطعم</span>
+                  </div>
+                  <div class="col-lg-2 col-4">
+                    <img src="images/popular-hotels/fa-solid_wifi.png"
+                      loading="location">
+                    <span class="p-h-text-icons">wifi</span>
+                  </div>
+                  <div class="col-lg-2 col-4">
+                    <img src="images/popular-hotels/bx_swim.png"
+                      loading="location">
+                    <span class="p-h-text-icons">بركة سباحة</span>
+                  </div>
+                  <div class="col-lg-2 col-4">
+                    <img src="images/popular-hotels/Group 2610443.png"
+                      loading="location">
+                    <span class="p-h-text-icons">مركز لياقة</span>
+                  </div>
+                  <div class="col-lg-2 col-4">
+                    <img src="images/popular-hotels/ic_outline-elevator.png"
+                      loading="location">
+                    <span class="p-h-text-icons">مصعد</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 col-6">
+                    <p class="card-button mt-2">
+                      <a
+                        class="btn btn-main btn-sm xy-popularsearch"
+                        href="https://booking.flynas.com/#/booking/search-redirect?origin=RUH&amp;destination=BAH&amp;origin1=undefined&amp;destination1=0&amp;currency=SAR&amp;departureDate=2024-10-04&amp;returnDate=null&amp;flightMode=oneway&amp;adultCount=1&amp;childCount=0&amp;infantCount=0&amp;culture=en-GB&amp;utm_source=&amp;tagtag_uid="
+                        tabindex="-1">احجز معنا</a>
+                    </p>
+                  </div>
+                  <div class="col-lg-6 col-6">
+                    <p class="card-button mt-2">
+                      <a
+                        class="btn btn-secondary d-flex justify-content-center align-items-center gap-2"
+                        href="#"
+                        tabindex="-1">قراءة المزيد</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start  Reviews -->
+    <section class="reviews">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="item">
+              <div class="position-relative">
+                <img src="images/reviews/image 10.png" class="img-ramadan"
+                  alt="img" />
+              </div>
+              <!-- Start Reviews section  -->
+              <section class="reviews-section pt-5">
+                <div class="container wow animate__animated animate__fadeInUp">
+                  <div class="swiper swiper-reviews">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="review-box text-center">
+                          <h4>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                            لقد تم
+                            توليد هذا النص من مولد النص..
+                          </h4>
+                          <h5 class="mt-3">اسم المستخدم</h5>
+
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="review-box text-center">
+                          <h4>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                            لقد تم
+                            توليد هذا النص من مولد النص..
+                          </h4>
+                          <h5 class="mt-3">اسم المستخدم</h5>
+
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="review-box text-center">
+                          <h4>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                            لقد تم
+                            توليد هذا النص من مولد النص..
+                          </h4>
+                          <h5 class="mt-3">اسم المستخدم</h5>
+
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="review-box text-center">
+                          <h4>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                            لقد تم
+                            توليد هذا النص من مولد النص..
+                          </h4>
+                          <h5 class="mt-3">اسم المستخدم</h5>
+
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="review-box text-center">
+                          <h4>
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                            لقد تم
+                            توليد هذا النص من مولد النص..
+                          </h4>
+                          <h5 class="mt-3">اسم المستخدم</h5>
+
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+              </section>
+              <!-- End Reviews Section  -->
+              <img src="images/reviews/Vector.png" class="bg-img-reviews"
+                alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Footer Section -->
+    <footer class>
+        <div class="footer-image-top">
+          <img src="images/backgrounds/image 11.png" alt="img" />
+        </div>
+        <div class="section-padding">
+          <div class="container">
+          <div class="row">
+            <div class="col-6 col-md-3 mb-2">
+              <img
+                class="img-fluid"
+                src="images/logo.png"
+                alt
+                width="100px"
+                loading="lazy" />
+              <h6 class="my-3">هذا النص هو مثال لنص يمكن أن يستبدل في نفس
+                المساحة،
+                لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك..</h6>
+            </div>
+            <div class="col-6 col-md-2 mb-2">
+              <h4>معلومات الشركة</h4>
+              <p>الذهبيه العالميه للسفر والسياحه</p>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.google.com/maps/place/%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A%D8%A9+%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9+%D9%84%D9%84%D8%B3%D9%81%D8%B1+%D9%88%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D8%A9%E2%80%AD/@24.5753293,46.698213,659m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3e2f0f00341dcb43:0x7050a1667f20747a!8m2!3d24.5753244!4d46.6956381!16s%2Fg%2F11y5vhjp39?hl=ar&entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3D">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>فرع المدينة</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.google.com/maps/place/%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A%D8%A9+%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9+%D9%84%D9%84%D8%B3%D9%81%D8%B1+%D9%88%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D8%A9%E2%80%AD/@24.5753244,46.6956381,3624m/data=!3m1!1e3!4m6!3m5!1s0x3e2f0f00341dcb43:0x7050a1667f20747a!8m2!3d24.5753244!4d46.6956381!16s%2Fg%2F11y5vhjp39?entry=tts&g_ep=EgoyMDI0MDkwOC4wKgBIAVAD">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>فرع الرياض</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-2">
+              <h4>الصفحات</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="./pages/mn-nhn.html">من نحن</a></li>
+                <li>
+                  <a href="./pages/alshrwt-walahkam.html">الشروط
+                    والاحكام</a>
+                </li>
+                <li><a href="./pages/contact-us.html">تواصل
+                    معنا</a></li>
+                <li><a href="./pages/privacy-policy.html">سياسة
+                    الخصوصية</a></li>
+                <li>
+                  <a
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#bookingInquiryModal">استعلام
+                    حجز</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-2">
+              <h4>تواصل معنا</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="tel:920029449"><i
+                      class="fa-solid fa-phone-flip"></i>
+                    920029449</a>
+                </li>
+                <li>
+                  <a href="https://wa.me/+966920029449"
+                    target="_blank"><i
+                      class="fab fa-whatsapp"></i>
+                    920029449</a>
+                </li>
+                <li>
+                  <a href="mailto:info@gita.sa"><i
+                      class="fas fa-envelope"></i>
+                    info@gita.sa</a>
+                </li>
+
+              </div>
+              <div class="col-md-3">
+                <h4>افضل الوجهات</h4>
+                <div class="footer-blog">
+                  <div class="media d-flex gap-4 mb-4">
+                    <div class="img-part">
+                      <a
+                        href="index.html?originLocationCode=MED&amp;destinationLocationCode=RUH&amp;departureDate=2024-09-22&amp;returnDate=2024-09-30&amp;adults=1&amp;children=&amp;infants=&amp;travelClass=ECONOMY"><img
+                          src="images/flights/destination/ruh.jpg"
+                          class="img-fluid blur-up lazyload rounded-2"
+                          alt
+                          style="height: 100px"
+                          loading="lazy" /></a>
+                    </div>
+                    <div class="media-body">
+                      <h5>القاهره للرياض</h5>
+                      <p>2024-09-22 / 2024-09-30</p>
+                    </div>
+                  </div>
+                  <div class="media d-flex gap-4">
+                    <div class="img-part rounded5">
+                      <a
+                        href="index.html?originLocationCode=MED&amp;destinationLocationCode=DXB&amp;departureDate=2024-09-22&amp;returnDate=2024-09-30&amp;adults=1&amp;children=&amp;infants=&amp;travelClass=ECONOMY"><img
+                          src="images/flights/destination/dxb.jpg"
+                          class="img-fluid blur-up lazyload rounded-2"
+                          alt
+                          style="height: 100px"
+                          loading="lazy" /></a>
+                    </div>
+                    <div class="media-body">
+                      <h5>القاهره لدبي</h5>
+                      <p>2024-09-22 / 2024-09-30</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-image-bottom">
+          <img src="images/backgrounds/image 11.png" alt="img" />
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
+      <!-- Start Copy Right -->
+      <div class="copyright py-3">
+        <div
+          class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+          <p class="mb-2 mb-md-0 text-center">
+            جميع الحقوق محفوظة لشركـــة الذهـبــية العــالـمـيـة للـسفـر
+            والسـيـاحة
+          </p>
+          <div class="footer-social mb-2 mb-md-0">
+            <ul class="list-unstyled d-flex mb-0">
+              <li>
+                <a href="https://www.facebook.com/gita2sa"><i
+                    class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/gita2sa/"><i
+                    class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="https://x.com/gita2sa"><i
+                    class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://www.snapchat.com/add/gita2sa/"><i
+                    class="fab fa-snapchat"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End Copy Right -->
+
+      <!-- Start booking Inquiry Modal -->
+      <div
+        class="modal fade"
+        id="bookingInquiryModal"
+        tabindex="-1"
+        aria-labelledby="bookingInquiryModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="bookingInquiryModalLabel">
+                استعلام حجز
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form
+                id="inq-form"
+                action="https://gita.sa/pages/inquiry"
+                method="GET">
+                <div class="mb-3">
+                  <label for="pnr" class="form-label">رقم الحجز</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="pnr"
+                    name="pnr"
+                    required />
+                </div>
+                <div class="mb-3">
+                  <label for="lastName" class="form-label">الاسم الاخير</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    name="lastName"
+                    required />
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal">
+                الغاء
+              </button>
+              <button form="inq-form" type="submit" class="btn btn-main btn-sm">
+                استعلام
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="whatsapp-float d-flex">
+        <a href="https://wa.me/+966920029449" target="_blank">
+          <img src="images/whatsapp.png" alt="WhatsApp" />
+        </a>
+      </div>
+      <script>
+        function Function_1(){
+          $('#target-element').css('background-image', "url('images/backgrounds/Web Layout.png')");
+          $('#text-header').css('color','#57440a')
+
+        }
+        function Function_2(){
+          $('#target-element').css('background-image', "url('images/backgrounds/Header.png')");
+          $('#text-header').css('color','#00806e')
+        }
+
+      </script>
+      <script src="./js/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+      <script src="js/swiper-bundle.min.js"></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+      <script src="./js/main.js"></script>
+    </body>
+  </html>
